@@ -45,7 +45,7 @@ export default class LoginFacebook extends Component {
             ) : 
             facebookData = (
                 <FacebookLoginBtn
-                appId="1112476095779315"
+                appId="YOUR_APP_ID"
                 autoLoad={true}
                 fields="name,picture"
                 onClick={this.componentClicked}
